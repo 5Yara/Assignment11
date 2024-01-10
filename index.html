@@ -1,0 +1,150 @@
+<html>
+
+<head>
+    <title></title>
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+                    <div class="container">
+                        <a class="navbar-brand d-flex" href="#">
+                            <img src="Images/logo@2x.png" alt="Logo" width="40" height="30"
+                                class="d-inline-block align-text-top">
+                            <div >
+                                <h1>Weather</h1>
+                                <small>tagline goes here</small>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Live cameras</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Photos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="image">
+            <div class="container">
+                <form class="find-location">
+                    <input type="text" placeholder="Find your location..." id="searchCity" fdprocessedid="dwh8z"
+                        class="w-75">
+                    <button id="findCity" class="btn btn-primary p-3">Find</button>
+                    <!-- <input type="button" value="Find" id="submit" fdprocessedid="3gnnel"> -->
+                </form>
+            </div>
+        </div>
+
+
+        <div class="forecast-table">
+            <div class="container">
+                <div class=" row pt-3" id="forecast">
+                    <div class=" col-md-4 pt-3">
+                        <div class="forecast-header" id="today">
+                            <div class="day d-flex justify-content-between align-items-center pt-2">
+                                <p id="todayName">Tuesday </p>
+                                <p> <span id="todayDate">9</span> <span id="todayMonth">January</span> </p>
+                            </div>
+                        </div>
+                        <div id="current">
+                            <div id="cityLocation">London</div>
+                            <div id="degree" class="d-flex justify-content-between align-items-center">
+                                <div id="num"><span id="todayTemperature">3</span><sup>o</sup>C</div>
+
+                             
+                                    <img id="todayForecastIcon"
+                                        src="https://cdn.weatherapi.com/weather/64x64/night/113.png" alt="" width="90">
+                            
+
+                            </div>
+                            <div id="descOfWeather">Clear</div>
+                            <div class="d-flex justify-content-between align-content-center py-3">
+                                <span><img src="Images/icon-umberella.png" alt="">
+                                    <p id="humidity">20%</p>
+                                </span>
+                                <span><img src="Images/icon-wind.png" alt="">
+                                    <p id="windSpeed">18km/h</p>
+                                </span>
+                                <span><img src="Images/icon-compass.png" alt="">
+                                    <p id="windDirection">East</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class=" col-md-4 forecast py-3">
+                        <div class="forecast-header">
+                            <div class="Nextday">Wednesday</div>
+                        </div>
+                        <div class="forecast-content">
+                            <div>
+                                <img class="NextDayForecastIcon"
+                                    src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                            </div>
+                            <div class="degree"><span class="maxTemp">4.2</span><sup>o</sup>C</div>
+                            <small><span class="minTemp">0.5</span><sup>o</sup></small>
+                            <div class="NextDayDescOfWeather">Sunny</div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class=" col-md-4 forecast py-3">
+                        <div class="forecast-header">
+                            <div class="Nextday">Thursday</div>
+                        </div>
+                        <div class="forecast-content">
+                            <div>
+                                <img class="NextDayForecastIcon"
+                                    src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="" width="48">
+                            </div>
+                            <div class="degree"><span class="maxTemp">5.2</span><sup>o</sup>C</div>
+                            <small><span class="minTemp">0</span><sup>o</sup></small>
+                            <div class="NextDayDescOfWeather">Partly cloudy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer></footer>
+    </div>
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

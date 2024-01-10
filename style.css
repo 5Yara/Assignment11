@@ -1,0 +1,87 @@
+body {
+    background-color: #1e202b;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+small {
+    font-size: 0.625rem;
+    color: #bfc1c8;
+}
+
+.image {
+    background-image: url(Images/banner.png);
+    background-size: cover;
+    padding: 170px 0px;
+}
+
+input {
+    border-radius: 30px;
+    padding: 20px 50px 20px 20px;
+    background-color: #1e202b;
+    border: none;
+}
+
+#findCity {
+    border-radius: 30px;
+}
+
+#forecast {
+    color: #fff;
+}
+
+.forecast {
+    text-align: center;
+}
+
+.forecast-header {
+    color: #bfc1c8;
+    background-color: #333544;
+}
+
+.forecast-content {
+    background-color: #333544;
+    padding-bottom: 115px;
+}
+
+#current {
+    background-color: #333544;
+}
+
+#todayMonth, #todayDate , #todayName {
+    font-size: 0.875rem;
+}
+
+#cityLocation {
+    font-size: 1.125rem;
+    color: #bfc1c8;
+}
+
+#num {
+    font-size: 5.625rem;
+}
+
+#descOfWeather {
+    font-size: 0.875rem;
+    color: #009adb;
+}
+
+.NextDayForecastIcon {
+    padding-top: 50px;
+}
+
+.degree {
+    font-size: 1.5rem;
+}
+
+.minTemp {
+    font-size: 1rem;
+}
+
+.NextDayDescOfWeather {
+    font-size: 0.875rem;
+    color: #009adb;
+    padding-top: 20px;
+}
